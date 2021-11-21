@@ -1,7 +1,7 @@
 // using Intern constructor 
-const manager = require('../lib/Manager');
+const Manager = require('../lib/Manager');
 
-test('creates a intern object', () => {
+test('creates a manager object', () => {
     const manager = new Manager ('Travis', 44, 'travis.helms@gmail.com', '234');
 
     expect (manager.name).toEqual ('Travis');
